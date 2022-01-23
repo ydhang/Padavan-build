@@ -33,7 +33,7 @@ jobs:
     - name: Clone source code
       run: |
         git clone --depth=1 https://github.com/ydhang/Padavan.git /opt/Padavan
-        cd /opt/rt-n56u/toolchain-mipsel
+        cd /opt/Padavan/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
     - name: Build Firmware
